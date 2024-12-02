@@ -19,12 +19,4 @@ def threeSumClosest(nums, target):
             if totSum < target:
                 j += 1
             elif totSum > target:
-                k -= 1
-            else:
-                # Exact match found
-                return totSum
-    
-    return closest_sum
-
-# Example usage
-print(threeSumClosest([1, 1, 1, 0], 100))  # Output should be 3
+        
