@@ -20,4 +20,13 @@ def fourSum(nums, target):
                     k += 1
                     m -= 1
                 elif sum4 < target:
-       
+                    k += 1
+                else: m-=1                    
+    return out                    
+
+
+
+                
+
+
+print(fourSum([1,2,3,4,5,6], 13))
